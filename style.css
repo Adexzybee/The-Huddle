@@ -73,7 +73,7 @@ button
   #icons{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 30%;
     min-height: 50px;
     margin-left: 55%;
     margin-top: 24%;
