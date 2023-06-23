@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+  }
+  body
+{
+   display: flex;
+   flex-direction: column;
+   background-image: url("bg-desktop.svg");
+   background-color: #7a4bc7;
+   }
+#main-container-div{
+display: flex;
+flex-direction: row;
+width: 100%;
+min-height: 575px;
+margin-top: 2%
+}
+#images-area-div
+{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+#text-area-div
+{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  padding-top: 10%;
+}
+#logo-div
+{
+  width: 10%;
+  min-height: 50px;
+  margin-left: 2%;
+}
+#huddle-div
+{
+  margin-left: 2%;
+}
+#text-head
+{
+  margin-bottom: 4%;
+  color: white;
+  
+}
+#text-body
+{
+  font-size: larger;
+  line-height: 30px;
+  color: white;
+}
+button
+{
+  width: 160px;
+  min-height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 3%;
+  padding-left: 3%;
+  border-width: 0px;
+  color: #7a4bc7;
+  }
+  button:hover
+  {
+    color: #7a4bc7;
+    border: 1px solid white;
+    transition: .5s;
+  }
+  #icons{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    min-height: 50px;
+    margin-left: 55%;
+    margin-top: 24%;
+    padding-left: 60px;
+    
+  }
+  .fa-brands{
+  padding-left: 4%;
+  size: 20%;
+  }
+
+  @media screen and (min-width:200px) and (max-width: 800px){
+    #main-container-div{
+        display: flex;
+        flex-direction: column;
+      }
+.mockups
+{
+  margin-top: 10%;
+  margin-bottom: 7%;
+ width: 80%;
+ margin-left: 12%;
+}
+#logo-div{
+  margin-left: 12%;
+}
+#text-area-div
+{
+  margin-left: 9%;
+  width:80%;
+text-align: center;
+font-size: 100%;
+}
+#images-area-div
+{
+  margin-left: 1%;
+}
+button
+{
+  width: 300px;
+  margin-top: 4%;
+}
+#icons{
+ 
+  margin-top: 5%;
+  margin-left: 19%;
+  
+}
+
+  }
+  @media screen and (min-width:600px) and (max-width:800px){
+    #icons{
+ 
+      margin-top: 5%;
+      margin-left: 35%;
+      
+    }
+
+  }
