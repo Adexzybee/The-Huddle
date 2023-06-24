@@ -125,9 +125,9 @@ font-size: 100%;
 }
 button
 {
-  width: 300px;
+  width: 100%;
   margin-top: 4%;
-  min-height: 50px;
+  min-height: 50%;
 }
 #icons{
  
