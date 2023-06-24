@@ -127,6 +127,7 @@ button
 {
   width: 300px;
   margin-top: 4%;
+  min-height: 50px;
 }
 #icons{
  
